@@ -131,4 +131,4 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: username/taski_frontend:latest
+          tags: alexmerk1/taski_frontend:latest
