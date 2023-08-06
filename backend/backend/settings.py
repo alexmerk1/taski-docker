@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-j_89af+30&&4qm*8z9_(^zz8p4-ho8z_m6ylm0s$h!-p@on1_^
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['84.252.139.255', '127.0.0.1', 'localhost', 'mytaski.sytes.net']
 
 
 # Application definition
@@ -108,7 +108,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = 'static_backend'
+STATIC_URL = '/static_backend/'
 
 STATIC_ROOT = BASE_DIR / 'static_backend'
 
